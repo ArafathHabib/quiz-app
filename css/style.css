@@ -1,0 +1,69 @@
+body{
+    font-family: sans-serif;
+    background-image: url(/images/mesh-457\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.container{
+    border: none;
+    border-radius: 15px;
+    width: 270px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.row ul li{
+    list-style: none;
+    font-size: 20px;
+    padding: 5px 0px;
+    transition: 0.2s;
+}
+
+.row ul li:hover{
+    background-color: rgba(240, 240, 240, 0.404);
+    border-radius: 5px;
+}
+
+.row ul{
+    padding: 0;
+}
+
+button{
+    width: 100%;
+    outline: none;
+    font-size: 20px;
+    border: none;
+    background-color: #f30051;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.1s;
+    border: 2px solid #f30051;
+}
+
+button:hover{
+    color: #f30051;
+    border: 2px solid #f30051;
+    background-color: white;
+}
+
+#question{
+    font-size: 27px;
+}
+
+#ifNotSelected{
+    padding-left: 6px;
+    color: #f30051;
+    font-size: 19px;
+}
+
+#scoreShow{
+    color: #f30000;
+}
